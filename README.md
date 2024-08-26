@@ -9,13 +9,6 @@ Early and accurate classification of leaf diseases is crucial for optimizing cro
 - **Models Used**: CNN, YOLOv10, ResNet18, VGG16
 - **Key Techniques**: Transfer Learning, Data Augmentation, Majority Voting
 
-## Repository Structure
-├── models                   # Pre-trained models and configuration files
-├── src                      # Source code for training and evaluation
-├── data                     # Dataset links and data preparation scripts
-├── notebooks                # Jupyter notebooks for experiments
-└── results                  # Results and analysis visualization
-
 ## Models and Performance
 We implemented various models including CNNs, ResNet18, VGG16, and YOLOv10, employing transfer learning and majority voting strategies to improve performance. Here is a brief overview of the model performances:
 - **VGG16 (Pre-trained)**: Achieved the highest single model accuracy of 98.92%.
